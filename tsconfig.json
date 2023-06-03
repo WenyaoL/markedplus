@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "target": "ES6",
+    "declaration": true,
+    "declarationDir": "./types",
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": false,
+    "strictNullChecks": false,
+    "allowJs": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+  ],
+  "exclude": [
+    "node_modules",
+    "src/marked/**/*.js",
+  ]
+}

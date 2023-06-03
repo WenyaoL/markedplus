@@ -1,0 +1,42 @@
+{
+  "name": "markedplus",
+  "version": "1.0.0",
+  "description": "fast build markdown parser.A full-featured markdown parser and compiler, written in TypeScript.",
+  "main": "./lib/markedplus.esm.js",
+  "module": "./lib/markedplus.esm.js",
+  "browser": "./lib/markedplus.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "dev": "vite",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "markdown",
+    "parser"
+  ],
+  "author": "yalier (wenyaoL)",
+  "license": "MIT",
+  "types": "lib/marked.d.ts",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@types/marked": "^4.0.8",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "highlight.js": "^11.8.0",
+    "marked-highlight": "^2.0.1",
+    "rollup": "^2.79.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "vue": "^3.2.47",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
